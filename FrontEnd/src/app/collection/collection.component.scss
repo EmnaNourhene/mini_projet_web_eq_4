@@ -1,0 +1,94 @@
+
+
+
+#Nos-collection{
+    width: 200px;
+        height: 70px;
+        border: 1px solid rgb(148, 147, 147);
+         margin: 18px;
+        padding: 18px;
+        background-color: white;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+         margin-left: 40% }
+       
+  #Nos-collection h4{
+    text-align: center;
+    color:#D8BD90;
+  }
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: inline-block;
+  }
+  
+  .product-card {
+    margin-top: 15%;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-right: 50px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .image {
+    transition: transform 0.005s; /* transition de la propriété transform */
+  }
+  
+  .image:active {
+    transform: translate(20px, 20px); /* déplacement de 3 pixels vers le bas et la droite */
+  }
+  
+  
+  .product-title a{
+    font-size: 18px;
+    margin-top: 10px;
+    color:#D8BD90;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+  .bouton-container {
+    text-align: center; /* centre les boutons horizontalement */
+  }
+  
+  #ajouter1 , #supprimer1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#D8BD90;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .bouton-gauche {
+    float: left;
+  }
+  
+  .bouton-droite {
+    float: right;
+  }
+  
+  
+  
+  
+
+  
+  
+  

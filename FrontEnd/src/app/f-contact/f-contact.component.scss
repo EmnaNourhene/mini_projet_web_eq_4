@@ -1,0 +1,53 @@
+h3{ text-align: center;
+    color: #D8BD90;}
+    #form1{
+       margin-left: 10%;
+       width: 100%; /* largeur du formulaire */
+      height: 100%; /* hauteur du formulaire */
+      margin-top: 5%;
+    }
+    .bouton-container {
+        text-align: center; /* centre les boutons horizontalement */
+      }
+      
+      #ajouter1 , #supprimer1{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color:#D8BD90;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        color: black;
+        
+      }
+      #ajouter1:active {
+        background-color: orangered; /* couleur de fond au focus/active */
+      }
+      #supprimer1:active {
+        background-color: green; /* couleur de fond au focus/active */
+      }
+      
+      .bouton-gauche {
+        float: left;
+      }
+      
+      .bouton-droite {
+        float: right;
+      }
+      #cadre-form {
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%; /* largeur du cadre */
+      height: 50%; /* hauteur du cadre */
+      margin: auto; /* margin automatique pour centrer horizontalement et verticalement */
+      border: 1px solid beige; /* bordure du cadre */
+      background-color: beige;
+      margin-top: 7%;
+    
+      }

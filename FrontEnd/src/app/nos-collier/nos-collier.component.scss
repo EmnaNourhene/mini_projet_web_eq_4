@@ -1,0 +1,58 @@
+
+#Nos-collier{
+    width: 200px;
+        height: 70px;
+        border: 1px solid rgb(148, 147, 147);
+        margin: 18px;
+        padding: 18px;
+        background-color: white;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+        margin-left: 47%
+  }
+  #Nos-collier h4{
+    text-align: center;
+    color:#D8BD90;
+  } 
+  .button-container{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#D8BD90;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+    float: right;
+  }
+  .card-img img {
+    width: 10px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 50px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  }
+  .card-body h5  {
+    font-size: 13px;
+    margin-top: 18px;
+    color :#D8BD90;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 110px;
+    margin-right: 50px;
+  }
+  .card-body p {
+    font-size: 13px;
+    margin-top: 10px;
+    color : black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 110px;
+    margin-right: 50px;
+    
+  }

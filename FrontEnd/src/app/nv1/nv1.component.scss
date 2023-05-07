@@ -1,0 +1,106 @@
+
+#b1 img {
+    width: 40%;
+    height: 40%;
+    margin-top: 25%;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+#carb1 h2 {
+margin-top: 15%;
+color:#FF4E00 ;
+font-size: 130%;
+font-style: oblique;
+}
+carb1 p {
+    color: black;
+    font-size: 90%;
+}
+
+  #modifierb1 {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFEDCF;
+   
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #FF4E00;
+  }
+  #supprimerb1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4E00;
+   
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #FFEDCF;
+  }
+  
+  .bouton-gauche {
+    float: left;
+  }
+  
+  .bouton-droite {
+    float: right;
+  }
+  .about .container .about-image {
+    position: relative;
+    height: fit-content;
+    margin-left: 50px;
+  }
+  .about .container .about-image::after {
+    content: "";
+    position: absolute;
+    border-left: 80px solid var(--main-color);
+    border-bottom: 80px solid var(--main-color);
+    border-top: none;
+    border-right: 0;
+    border-style: 0;
+    height: 75%;
+    width: 50%;
+    top: -30px;
+    left: 75%;
+    z-index: -1;
+  }
+  .about .container .about-image::before {
+    content: "";
+    position: absolute;
+    height: calc(100% + 50px);
+    width: 100px;
+    left: -50px;
+    top: -30px;
+    background-color: #ebeced;
+    z-index: -1;
+  }
+  
+  @media (max-width: 991px) {
+    .about .container .about-image::before,
+    .about .container .about-image::after {
+      display: none;
+    }
+    .about .container .about-image {
+      margin-left: 0;
+    }
+    .about .container .about-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .about .container .about-text {
+      text-align: center;
+    }
+  }
+  
+  .about .container .about-image img {
+    width: 200px;
+  }

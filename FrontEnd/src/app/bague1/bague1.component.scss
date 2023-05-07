@@ -1,0 +1,56 @@
+
+#b1 img {
+    width: 40%;
+    height: 40%;
+    margin-top: 25%;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+#carb1 h2 {
+margin-top: 15%;
+color:#FF4E00 ;
+font-size: 130%;
+font-style: oblique;
+}
+carb1 p {
+    color: black;
+    font-size: 90%;
+}
+
+  #modifierb1 {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFEDCF;
+   
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #FF4E00;
+  }
+  #supprimerb1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4E00;
+   
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #FFEDCF;
+  }
+  
+  .bouton-gauche {
+    float: left;
+  }
+  
+  .bouton-droite {
+    float: right;
+  }

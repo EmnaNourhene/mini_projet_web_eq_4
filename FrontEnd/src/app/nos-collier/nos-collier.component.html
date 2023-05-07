@@ -1,0 +1,24 @@
+<body>
+    <div class="cadre" id="Nos-collier">
+      <h4>Nos Collier</h4>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3" *ngFor="let i of prod">
+                <div class="card-img">
+                    <img class="w-100" [src]="i.image" alt="im1" routerLink="/collier1">
+                </div>
+                <div class="card-body">
+                    <h5>{{i.nom}}</h5>
+                    <p class="center">{{i.prix}} dt</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="button-container">
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button (click)="gotoajout()" class="btn me-md-2 button droite " type="button">Ajouter</button>
+      </div>
+    </div>
+  </body>
